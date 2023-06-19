@@ -1,0 +1,61 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Doggie",
+    "dateExported": "2023-06-19T20:40:13.349Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "9ec3b4d2-a584-4a29-99d7-94bddbe6fd09",
+            "colId": "d70d547a-e3b7-4f0e-b3c6-8a3b77db3d92",
+            "containerId": "",
+            "name": "Get Dogs",
+            "url": "http://localhost:3000/dogs",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-06-19T20:36:32.279Z",
+            "modified": "2023-06-19T20:36:32.279Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Jon\",\n  \"color\":\"Brown\",\n  \"tail_length\":30, \n  \"weight\":40\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "357c69a4-7a15-43c7-a5be-83b432f12222",
+            "colId": "d70d547a-e3b7-4f0e-b3c6-8a3b77db3d92",
+            "containerId": "",
+            "name": "Ping",
+            "url": "http://localhost:3000/ping",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-06-19T20:36:46.518Z",
+            "modified": "2023-06-19T20:36:46.518Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6d7cfc08-221b-4286-a4e6-288205a8fa20",
+            "colId": "d70d547a-e3b7-4f0e-b3c6-8a3b77db3d92",
+            "containerId": "",
+            "name": "Create Dogs",
+            "url": "http://localhost:3000/dogs",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-06-19T20:37:06.463Z",
+            "modified": "2023-06-19T20:37:06.463Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Jon\",\n  \"color\":\"Brown\",\n  \"tail_length\":30, \n  \"weight\":40\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
